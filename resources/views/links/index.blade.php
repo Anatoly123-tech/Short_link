@@ -4,7 +4,7 @@
     .container{
         background-color: #bb1d38;
         padding: 15px;
-        color: #ffebf2;;
+        color: #ffebf2;
         border-radius: 10px;
     }
     .container h1{
