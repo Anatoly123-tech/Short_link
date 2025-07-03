@@ -28,11 +28,6 @@
                 {{ session('success') }}
             </div>
         @endif
-        @if (session('error'))
-            <div class="alert alert-danger">
-                {{ session('error') }}
-            </div>
-        @endif
         <h1>Мои ссылки</h1>
         <form action="{{route('links.store')}}" method="POST">
             @csrf
